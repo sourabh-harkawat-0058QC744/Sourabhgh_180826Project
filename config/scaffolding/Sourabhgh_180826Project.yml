@@ -14,6 +14,12 @@ packages:
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: nested1/nested2
 services:
+- serviceName: project.sourabhgh_180826.ftp.connections:ss
+  packages:
+  - name: Sourabhgh_180826Project
+    version: "1.0"
+  - name: LowerFSPackage
+    version: "3.0"
 - serviceName: project.sourabhgh_180826.integrations:as
   packages:
   - name: Sourabhgh_180826Project

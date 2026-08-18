@@ -8,7 +8,23 @@ packages:
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: main
 - name: LowerFSPackage
+  version: "3.0"
   gitServerName: sourabhShared
   gitUrl: https://github.com/sourabh-harkawat-0058QC744
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: nested1/nested2
+services:
+- serviceName: project.sourabhgh_180826.integrations:as
+  packages:
+  - name: Sourabhgh_180826Project
+    version: "1.0"
+  - name: LowerFSPackage
+    version: "3.0"
+- serviceName: LowerFSPackage:lowerFS
+  packages:
+  - name: LowerFSPackage
+    version: "3.0"
+- serviceName: pub.string:toLower
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070

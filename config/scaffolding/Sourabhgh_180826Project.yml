@@ -8,8 +8,7 @@ packages:
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: main
 - name: LowerFSPackage
-  version: "2.0"
   gitServerName: sourabhShared
   gitUrl: https://github.com/sourabh-harkawat-0058QC744
   gitUsername: sourabh-harkawat-0058QC744
-  gitBranch: testbranch
+  gitBranch: nested1/nested2

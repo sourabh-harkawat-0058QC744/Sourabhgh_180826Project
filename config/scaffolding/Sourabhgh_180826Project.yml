@@ -13,6 +13,9 @@ packages:
   gitUrl: https://github.com/sourabh-harkawat-0058QC744
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: nested1/nested2
+- name: TechnologyConnector
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
 services:
 - serviceName: project.sourabhgh_180826.ftp.connections:ss
   packages:
@@ -31,6 +34,16 @@ services:
   - name: LowerFSPackage
     version: "3.0"
 - serviceName: pub.string:toLower
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
+- serviceName: project.sourabhgh_180826.integrations:asasxa
+  packages:
+  - name: Sourabhgh_180826Project
+    version: "1.0"
+  - name: LowerFSPackage
+    version: "3.0"
+- serviceName: pub.client.ftp:ls
   packages:
   - name: WmPublic
     version: 12.1.0.0.1070

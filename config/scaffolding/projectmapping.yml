@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: Sourabhgh_180826Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: Untitled Workflow
+    type: workflow
+    uid: flb4a6fa6df9d9449291fcd5b5e33402ef
+    stepId: a0
+    reference: project.sourabhgh_180826.integrations:as

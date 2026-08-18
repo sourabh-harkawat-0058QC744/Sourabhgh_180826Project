@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">ftpAccount</value>
+  <value name="node_nsName">project.sourabhgh_180826.ftp.connections:ss</value>
+  <value name="node_pkg">Sourabhgh_180826Project</value>
+  <value name="is_public">false</value>
+  <record name="accountDetails" javaclass="com.wm.util.Values">
+    <null name="agentGroup"/>
+    <value name="agentId">eca593fd8ab64cc39db61fbec422ea88</value>
+    <value name="connectionName">ss</value>
+    <value name="connectionType">sagcloud</value>
+    <value name="connectorID">ftpconnector</value>
+    <value name="connectorType">ftp</value>
+    <value name="description">ss</value>
+    <null name="instanceId"/>
+    <value name="password">*****</value>
+    <value name="projectName">sourabhgh_180826</value>
+    <value name="providerName">TechnologyConnector</value>
+    <value name="serverhost">test.rebex.net</value>
+    <value name="serverport">21</value>
+    <value name="timeout">60</value>
+    <null name="updateAsset"/>
+    <value name="username">demo</value>
+    <value name="passwordhandle">wm.is.admin.project.sourabhgh_180826.ftp.connections:ss</value>
+  </record>
+  <value name="assetId">Sourabhgh_180826Project.project.sourabhgh_180826.ftp.connections:ss</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Sourabh.Harkawat1@ibm.com</value>
+    <value name="createdDate">2026-08-18T01:08:14.418057985Z</value>
+    <value name="modifiedBy">Sourabh.Harkawat1@ibm.com</value>
+    <value name="lastModifiedDate">2026-08-18T01:08:14.418057985Z</value>
+  </record>
+</Values>
